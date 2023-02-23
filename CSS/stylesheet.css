@@ -1,0 +1,138 @@
+* {
+    background-color: #f8f5e3;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+#mifoto {
+    width: 25%;
+    float: left;
+}
+
+h1 {
+    color: #0d2840;
+    font-weight: bolder;
+    font-family: 'Amatic SC', cursive;
+    font-size: xx-large;
+    padding: 5px;
+    float: right;
+    width: 75%; 
+}
+
+#abstract {
+    color: #0d2840;
+    font-size: large;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    width: 74%; border: 5px solid #94c7e9
+}
+
+#cv {
+    color: #010406;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    padding: 5px;
+    float: right;
+    width: 75%;
+}
+
+.clasedeapartados {
+    color: #d6e8f4;
+    font-family: 'Marhey', cursive;
+    padding: 10px;
+    background-color: #0d2840;
+    border: 5px solid #0d2840;
+    margin: 15px;
+    float: left;
+    width: 100%;
+}
+
+.clasedeitemdp {
+     color: #0d2840;
+     font-family: 'Josefin Sans', sans-serif;
+     padding: 10px;
+     margin: 5px;
+     float: left;
+     width: 100%;
+ }
+
+.clasedeitem {
+     color: #0d2840;
+     font-family: 'Josefin Sans', sans-serif;
+     padding: 10px;
+     margin: 5px;
+     float: left;
+     width: 100%;
+}
+
+#msje {
+    color: #0d2840;
+    font-family: 'Marhey', cursive;
+    float: left;
+    width: 100%;
+}
+
+footer {
+    color: #0d2840;
+    font-family: 'Josefin Sans', sans-serif;
+    float: left;
+    width: 100%;
+}
+
+#boton {
+    color: #d5dce3;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    background-color: #0d2840;
+    border: 5px groove #0d2840;
+    margin: 3px
+    
+}
+
+@media (max-width: 600px) {
+    * {
+      background-color: rgb(237, 199, 149);
+    }
+   
+    #mifoto {
+        width: 100%;
+        float: left;
+    }
+   
+    h1 {
+        color: #0d2840;
+        font-weight: bolder;
+        font-family: 'Amatic SC', cursive;
+        font-size: xx-large;
+        text-align: center;
+        padding: 5px;
+        float: right;
+        width: 100%; 
+    }
+
+    #abstract {
+        color: #0d2840;
+        font-size: large;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 5px;
+        margin: 5px;
+        float: right;
+        width: 98%; border: 5px solid #8a4e12
+    }
+    
+    #cv {
+        color: #010406;
+        font-weight: bold;
+        font-family: 'Amatic SC', cursive;
+        text-align: center;
+        padding: 5px;
+        float: right;
+        width: 100%;
+    }
+  }
