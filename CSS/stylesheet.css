@@ -71,6 +71,27 @@ h1 {
      width: 100%;
 }
 
+#vernotas {
+    color: #04263d;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    height: 30px;
+    width: auto;
+    background-color: #8bb6dc;
+    border: 5px groove #5682aa;
+}
+
+#vervideos {
+    color: #04263d;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    height: 30px;
+    width: auto;
+    background-color: #8bb6dc;
+    border: 5px groove #5682aa;
+}
+
+
 #msje {
     color: #0d2840;
     font-family: 'Marhey', cursive;

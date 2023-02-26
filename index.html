@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Ana Paula Poblete</title>
+    <title>CURRICULUM VITAE Ana Paula Poblete</title>
     <link rel="icon" href="C:\Users\Usuario\Documents\DESARROLLOWEB\poblete/1app.png" type="image/x-icon" />
 
     <!-- Hoja de estilo externa -->
@@ -74,10 +74,13 @@
         <ul class="clasedeitem">
             <li>Directora de Producción en Dirección General de Despacho. Rectorado. UNCUYO</li>
             <li>Investigadora en temas macroeconómicos. FCE. UNCUYO</li>
-                <!-- VER MÁS // Coonfigurar luego para que lo muestre solo al apretar un botón-->
-                <iframe height="285px" width="500px" src="https://www.youtube.com/embed/fsIGTKN6ces?list=PLGtvR611c_DLgpEg20aYY_32De7Zv7o1G" title="Tipo de cambio real en latinoamérica" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe height="285px" width="500px" src="https://www.youtube.com/embed/1xGZg5sHIMo?list=PLGtvR611c_DLgpEg20aYY_32De7Zv7o1G" title="Acuerdo stand-by de Argentina con el FMI (junio 2018): análisis de política económica" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 
+                <button id="vervideos" type="button">Haz click para ver videos de exposiciones</button>                
+                <div style="display: none;" id="videos">
+                <iframe id=video1 height="285px" width="500px" src="https://www.youtube.com/embed/fsIGTKN6ces?list=PLGtvR611c_DLgpEg20aYY_32De7Zv7o1G" title="Tipo de cambio real en latinoamérica" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe id=video2 height="285px" width="500px" src="https://www.youtube.com/embed/1xGZg5sHIMo?list=PLGtvR611c_DLgpEg20aYY_32De7Zv7o1G" title="Acuerdo stand-by de Argentina con el FMI (junio 2018): análisis de política económica" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <button id="vermenos2" type="button" style="display: none;">Ver menos</button>    
             <li>Docente de grado universitario. Cátedra: Evaluación Económica de Proyectos de Negocios. FCE. UNCUYO</li>
 
             <li>Docente de posgrado. Cátedra: Economía y Negocios. MAGNAGRO. FCE. UNCUYO</li>
@@ -86,17 +89,24 @@
 
             <li>Columnista sobre temas de coyuntura macroeconómica en prensa local</li>
             
-                <!-- VER MÁS // Coonfigurar luego para que lo muestre solo al apretar un botón-->
-                <!--
-                    Poner ir a enlace:
-                    https://www.sinretornofm.com/una-solucion-multidimensional
-                    https://www.sinretornofm.com/una-realidad-que-demanda-respuestas
-                    https://www.sinretornofm.com/criptomonedas-dimension-paralela
-                    https://www.sinretornofm.com/la-lucha-diaria-contra-el-aumento-de-precios
-                    https://www.sinretornofm.com/eso-que-llaman-amor
-                    https://www.memo.com.ar/economia/seis-economistas-analizan-el-impacto-de-la-pandemia-en-la-economia-de-las-mujeres/
-                    http://www.sitioandino.com.ar/n/261150-las-metas-de-inflacion-no-cierran-con-el-actual-deficit-fiscal/
-                -->
+            <button id="vernotas" type="button">Haz click para ver algunas notas</button>
+            
+            <div style="display: none;" id="notas">
+                <ul>
+                    <li><a href="https://www.elnueve.com/5-infalibles-tips-para-ahorrar-hasta-10000-mensuales" target="_blank">ELNUEVE.COM: 5 infalibles tips para ahorrar hasta 10000 mensuales</a></li>
+                    <li><a href="https://www.sinretornofm.com/una-solucion-multidimensional" target="_blank">SIN RETORNO: Una solución multidimensional</a></li>
+                    <li><a href="https://www.sinretornofm.com/una-realidad-que-demanda-respuestas" target="_blank">SIN RETORNO: Una realidad que demanda respuestas</a></li>
+                    <li><a href="https://www.sinretornofm.com/criptomonedas-dimension-paralela" target="_blank">SIN RETORNO: Criptomonedas: Una dimensión paralela?</a></li>
+                    <li><a href="https://www.sinretornofm.com/la-lucha-diaria-contra-el-aumento-de-precios" target="_blank">SIN RETORNO: La lucha diaria contra el aumento de precios</a></li>
+                    <li><a href="https://www.sinretornofm.com/eso-que-llaman-amor" target="_blank">SIN RETORNO: Eso que llaman amor</a></li>
+                    <li> <a href="https://www.memo.com.ar/economia/seis-economistas-analizan-el-impacto-de-la-pandemia-en-la-economia-de-las-mujeres/" target="_blank">MEMO: Seis economistas analizan el impacto de la pandemia en la economía de las mujeres</a></li>
+                    <li><a href="http://www.sitioandino.com.ar/n/261150-las-metas-de-inflacion-no-cierran-con-el-actual-deficit-fiscal/" target="_blank">SITIO ANDINO: Las metas de inflación no cierran con el actual déficit fiscal</a></li>
+                    <li><a href="https://www.losandes.com.ar/la-inflacion-de-junio-fue-de-26-la-mas-baja-del-semestre/" target="_blank">LOS ANDES: La inflación de junio fue la más baja del semestre</a></li>
+                </ul>
+            </div>
+
+            <button id="vermenos1" type="button" style="display: none;">Ver menos</button>
+
         </ul>
     
     <h3 class="clasedeapartados">Capacitaciones y habilidades específicas</h3>
@@ -146,5 +156,6 @@
                   </div>
         </form>
     </footer>
+    <script src="JS/function.js"></script>
 </body>
 </html>
