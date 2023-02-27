@@ -1,3 +1,4 @@
+
 document.getElementById("vernotas").addEventListener('click', function() {
         document.getElementById("notas").style.display = 'block';
         document.getElementById("vernotas").style.display = 'none';

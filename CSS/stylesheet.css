@@ -6,8 +6,6 @@
     box-sizing: border-box;
 }
 
-
-
 #mifoto {
     width: 25%;
     float: left;
@@ -91,7 +89,6 @@ h1 {
     border: 5px groove #5682aa;
 }
 
-
 #msje {
     color: #0d2840;
     font-family: 'Marhey', cursive;
@@ -113,7 +110,6 @@ footer {
     background-color: #0d2840;
     border: 5px groove #0d2840;
     margin: 3px
-    
 }
 
 @media (max-width: 600px) {
